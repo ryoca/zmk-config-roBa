@@ -96,7 +96,7 @@
 &kp TAB           &kp W         &kp E         &kp R                          &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                          &kp G        &kp LS(LG(S))                    &kp MINUS        &kp H        &kp J  &lt 5 K    &kp L    &kp SINGLE_QUOTE
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                          &kp B        &kp ESCAPE                       &kp LS(KP_PLUS)  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 6 INT_HENKAN      &kp BACKSPACE    &lt 1 ENTER                             &kp DEL
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 6 INT_HENKAN      &lt 2 BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -113,10 +113,10 @@
 
         NUM {
             bindings = <
-&kp EXCL          &kp LEFT_BRACKET    &kp POUND         &kp DOLLAR     &kp PERCENT                                           &kp EQUAL     &kp CARET  &kp DOUBLE_QUOTES  &kp ASTERISK       &kp LEFT_PARENTHESIS
-&kp LS(Q)         &kp Q               &kp LC(UP_ARROW)  &trans         &kp AT         &kp LC(LA(KP_NUMBER_0))      &kp HOME  &kp MINUS     &kp UNDER  &kp COLON          &kp RIGHT_BRACKET  &kp BACKSLASH
-&mt LEFT_SHIFT Z  &kp LC(LEFT_ARROW)  &kp LC(DOWN)      &kp LC(RIGHT)  &kp AMPERSAND  &kp LS(0x89)                 &kp END   &kp LS(0x87)  &kp PLUS   &trans             &kp RIGHT_BRACE    &kp PIPE
-&trans            &trans              &trans            &trans         &trans         &trans                       &trans    &trans                                                         &trans
+&kp EXCL          &kp LEFT_BRACKET    &kp POUND         &kp DOLLAR     &kp PERCENT                                                &kp EQUAL     &kp CARET  &kp DOUBLE_QUOTES  &kp ASTERISK       &kp LEFT_PARENTHESIS
+&kp LS(Q)         &kp Q               &kp LC(UP_ARROW)  &trans         &kp AT         &kp LC(LA(KP_NUMBER_0))      &kp HOME       &kp MINUS     &kp UNDER  &kp COLON          &kp RIGHT_BRACKET  &kp BACKSLASH
+&mt LEFT_SHIFT Z  &kp LC(LEFT_ARROW)  &kp LC(DOWN)      &kp LC(RIGHT)  &kp AMPERSAND  &kp LS(0x89)                 &kp END        &kp LS(0x87)  &kp PLUS   &trans             &kp RIGHT_BRACE    &kp PIPE
+&trans            &trans              &trans            &trans         &trans         &trans                       &kp BACKSPACE  &trans                                                         &trans
             >;
         };
 
@@ -133,10 +133,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                        &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans    &trans      &trans  &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &mkp MB3  &trans      &trans  &trans                              &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
 
