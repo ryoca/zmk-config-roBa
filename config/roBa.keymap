@@ -93,10 +93,10 @@
 
         default_layer {
             bindings = <
-&kp TAB           &kp W         &kp E         &kp R                          &kp T                                                        &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                          &kp G        &kp LS(LG(S))                    &kp MINUS      &kp H        &kp J  &lt 5 K    &kp L    &kp COLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                          &kp B        &kp ESCAPE                       &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 6 INT_HENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp TAB           &kp W         &kp E         &kp R                          &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                          &kp G        &kp LS(LG(S))                    &kp MINUS        &kp H        &kp J  &lt 5 K    &kp L    &kp SINGLE_QUOTE
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                          &kp B        &kp ESCAPE                       &kp LS(KP_PLUS)  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 6 INT_HENKAN      &kp BACKSPACE    &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -122,7 +122,7 @@
 
         ARROW {
             bindings = <
-&kp LC(NUMBER_1)    &kp LC(LS(NUMBER_1))  &kp LS(LC(PERCENT))  &kp LC(R)  &kp LC(N5)                                      &trans         &kp PAGE_UP         &kp LC(PLUS)        &kp PAGE_DOWN        &trans
+&kp LC(NUMBER_1)    &kp LC(LS(NUMBER_1))  &kp LS(LC(PERCENT))  &kp LC(R)  &kp LC(N5)                                      &trans         &kp PAGE_UP         &kp LC(COLON)       &kp PAGE_DOWN        &trans
 &kp LC(A)           &kp LC(S)             &kp LC(D)            &kp LC(F)  &kp LC(G)   &trans      &kp LA(LS(UNDERSCORE))  &kp LC(MINUS)  &kp LC(PAGE_UP)     &kp LS(UP_ARROW)    &kp LS(PAGE_DOWN)    &kp LC(SINGLE_QUOTE)
 &kp LC(LEFT_SHIFT)  &kp LC(X)             &kp LC(C)            &kp LC(V)  &kp LC(B)   &trans      &kp LA(LC(V))           &trans         &kp LS(LEFT_ARROW)  &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)  &kp LC(LS(RIGHT))
 &trans              &trans                &trans               &trans     &trans      &trans      &trans                  &kp LA(ENTER)                                                               &trans
