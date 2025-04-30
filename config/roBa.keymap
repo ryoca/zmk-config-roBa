@@ -113,10 +113,10 @@
 
         NUM {
             bindings = <
-&kp EXCL          &kp AT_SIGN         &kp POUND         &kp DOLLAR     &kp PERCENT                                           &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LS(Q)         &kp Q               &kp LC(UP_ARROW)  &trans         &kp BACKSLASH  &kp LC(LA(KP_NUMBER_0))      &kp HOME  &kp MINUS       &kp EQUAL      &kp PLUS          &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-&mt LEFT_SHIFT Z  &kp LC(LEFT_ARROW)  &kp LC(DOWN)      &kp LC(RIGHT)  &kp PIPE       &kp EQUAL                    &kp END   &kp UNDERSCORE  &kp TILDE      &kp SINGLE_QUOTE  &kp LEFT_BRACE        &kp RIGHT_BRACE
-&trans            &trans              &trans            &trans         &trans         &trans                       &trans    &trans                                                                 &trans
+&kp EXCL          &kp LEFT_BRACKET    &kp POUND         &kp DOLLAR     &kp PERCENT                                           &kp EQUAL       &kp CARET  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LS(Q)         &kp Q               &kp LC(UP_ARROW)  &trans         &kp BACKSLASH  &kp LC(LA(KP_NUMBER_0))      &kp HOME  &kp MINUS       &kp EQUAL  &kp PLUS          &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&mt LEFT_SHIFT Z  &kp LC(LEFT_ARROW)  &kp LC(DOWN)      &kp LC(RIGHT)  &kp PIPE       &kp EQUAL                    &kp END   &kp UNDERSCORE  &kp TILDE  &kp SINGLE_QUOTE  &kp LEFT_BRACE        &kp RIGHT_BRACE
+&trans            &trans              &trans            &trans         &trans         &trans                       &trans    &trans                                                             &trans
             >;
         };
 
